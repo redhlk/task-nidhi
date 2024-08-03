@@ -1,0 +1,141 @@
+.main{
+    margin: auto;
+    width:1000px;
+    height: 540px;
+    border:2px solid black;
+}
+
+
+.header{
+  
+    width: 1000px;
+    /* height=headerheigt--bottomborder-padding */
+    height:78px;
+    border-bottom:2px solid black;
+    text-align:center;
+    padding-top: 20px;
+}
+.menubar{
+    /* no border on left and right */
+    width: 1000px;
+     /* height=headerheigt--bottomborder-padding & no border on top*/
+    height:38px;
+    border-bottom: 2px solid black;
+
+}
+.menuitem{
+    width: 198px;
+    height:33px;
+    border-right:2px solid black;
+    text-align: center;
+    padding-top: 7px;
+    float:left;
+    font-size: 23px;
+}
+.content{
+    width: 1000px;
+   height: 350px;
+    border-bottom: 2px solid black;
+    
+    
+
+}
+.leftbar{
+    width:248px;
+    height:350px;
+    border-right: 2px solid black;
+    float:left;
+}
+.leftbaritem{
+    width:169px;
+    height:29px;
+    border-bottom:2px solid black;
+   
+    padding-left:80px;
+    padding-top: 9px;
+    font-size: 18px;
+
+}
+.home-rightbar
+{
+    width:750px;
+    height:199px;
+    float:left;
+}
+.row4
+{
+    width:550px;
+    height:41px;
+    border-bottom:2px solid black;
+   padding-left: 450px;
+    padding-top:7px;
+    font-size:25px;
+}
+
+.container{
+    width:1000px;
+    height:98px;
+    border-bottom: 2px solid black;
+}
+.clients{
+    width: 330px;
+    height: 95px;
+    border: 2px solid black;
+   float:left;
+
+}
+.footer{
+    width:600px;
+    height:35px;
+    font-size: 18px;
+    padding-left: 400px;
+    padding-top: 15px;
+   
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.about-rightbar{
+    width:550px;
+    height:290px;
+    float:left;
+    
+    padding:30px 100px;
+    
+    font-size:18PX;
+}
+.course-rightbar{
+    width:350px;
+    height:270px;
+    float:left;
+    
+    padding:40px 200px;
+    
+    font-size:25PX;
+
+}
+.gallery-container{
+    width:750px;
+    height:350px;
+    float:left;
+    background-color: bisque;
+
+}
+.galleryrow{
+    width: 750px;
+    height:175px;
+    background-color: white;
+
+}
+.galleryrcol{
+    width: 200px;
+    height: 135px;
+    float: left;
+    
+    margin-top:25px ;
+    margin-left: 30px;
+    margin-right: 20px;
+}
